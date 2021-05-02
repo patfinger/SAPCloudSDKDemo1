@@ -20,14 +20,14 @@
 ### General project setup
 general:
   productiveBranch: 'master'
-  projectName: 'SAPCloudSDKDemo1'
+  projectName: 'sapcloudsdkdemo1'
 
 ### Step-specific configuration
 steps:
 #  cloudFoundryDeploy:
 #    cloudFoundry:
 #      org: 'myOrg'
-#      appName: 'SAPCloudSDKDemo1'
+#      appName: 'sapcloudsdkdemo1'
 #      manifest: 'manifest.yml'
 #      credentialsId: 'myDeploymentCredentialsId'
 #      apiEndpoint: 'https://api.cf.sap.hana.ondemand.com'

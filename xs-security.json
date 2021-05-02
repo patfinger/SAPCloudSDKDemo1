@@ -1,5 +1,5 @@
 {
-    "xsappname": "SAPCloudSDKDemo1",
+    "xsappname": "sapcloudsdkdemo1",
     "tenant-mode": "shared",
     "scopes": [
       {
@@ -11,7 +11,7 @@
     "role-templates": [
       {
         "name": "Viewer",
-        "description": "Role to get access to Application SAPCloudSDKDemo1",
+        "description": "Role to get access to Application sapcloudsdkdemo1",
         "scope-references": [
           "$XSAPPNAME.read"
         ]
@@ -19,8 +19,8 @@
     ],
     "role-collections": [
       {
-        "name": "SAPCloudSDKDemo1",
-        "description": "SAPCloudSDKDemo1",
+        "name": "sapcloudsdkdemo1",
+        "description": "sapcloudsdkdemo1",
         "role-template-references": [
           "$XSAPPNAME.Viewer"
         ]
